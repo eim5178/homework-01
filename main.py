@@ -1,7 +1,7 @@
 calc_num = 0
 total_course_credit = 0 
 for i in range (3):
-  course_grade = input(f"Enter your course {i+1} grade: ")
+  course_grade = input(f"Enter your course {i+1} letter grade: ")
   course_credit = input(f"Enter your course {i+1} credit: ")
   course_credit = float(course_credit)
   if course_grade == 'A' :
