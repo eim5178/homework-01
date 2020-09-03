@@ -25,9 +25,6 @@ for i in range (3):
   elif course_grade == 'C' :
     gp_course = float(2.0)
     print (f"Grade point for course {i+1} is: {gp_course}")
-  elif course_grade == 'C-' or course_grade == 'c':
-    gp_course = float(1.67)
-    print (f"Grade point for course {i+1} is: {gp_course}")
   elif course_grade == 'D' :
     gp_course = float(1.0)
     print (f"Grade point for course {i+1} is: {gp_course}")
